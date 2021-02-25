@@ -51,11 +51,13 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
+        tools:listitem="@layout/thumbnail"
+        tools:itemCount="5"
         android:layout_marginBottom="5dp"
         android:layout_below="@id/l_l"
-        android:id="@+id/thumbnailList"/>
+        android:id="@+id/thumbnailsRecyclerView"/>
 
 </RelativeLayout>
